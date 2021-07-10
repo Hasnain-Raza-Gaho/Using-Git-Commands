@@ -1,0 +1,46 @@
+git init
+(it adds folder of git...)
+
+git status
+(it checks which files are tracked or untracked)
+
+git add .
+(it add all files....)
+
+we are on branch master
+
+git commit -m "files"
+(it commits on github file....)
+
+
+git branch -m master
+
+
+git remote add origin   repostry-link-insert-here
+
+git push -u origin master
+
+(ye code computer se online website pr bhej dega...
+means aap ne jo bhi changin ki hogi offline.. apne computer me
+ye code us offline changing ko.. online website pr Push krdega...
+it will add your data on github)
+
+
+now create branch name as gh-page
+
+git pull
+this command used to check online changes.... agr kch online changing hogai hogi...
+tou usko aap k folder me lekr ayegaa...
+
+
+git push -u origin master
+this used to forward code to online  from your repo... if you change something offline...
+
+git checkout gh-pages
+it switched to gh-pages....
+
+git merge master 
+(you are on gh-pages and it merges both files . means same code)
+
+git branch
+it shows all branches......
